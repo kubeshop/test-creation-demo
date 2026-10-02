@@ -1,0 +1,15 @@
+{
+  "name": "test-creation-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright e2e suite for the TodoMVC React example, used to demo Testkube AI test creation",
+  "scripts": {
+    "test": "playwright test",
+    "test:e2e": "playwright test",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0"
+  }
+}
